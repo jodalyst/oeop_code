@@ -27,7 +27,7 @@ for loop in loops:
     for val in range(len(data_set)):
         while time.time()-start < val*1.0/transmission_rate:
             pass
-        GPIO.output(17,int(data_set[v]) 
+        GPIO.output(17,int(data_set[v]))
 
 GPIO.cleanup()
 
