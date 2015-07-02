@@ -1,8 +1,0 @@
-transmitter.py is a file that runs only from teh tutor....you give it bit strings in string format and it flashes them at the assigned rate.
-
-
-receiver.py is a general file you'll put your threshold code into....it will capture the bits at a certain rate and print out the data...if found
-
-receiver_helper.py is a helper file to receiver.
-
-recorder.py records your voice and then saves it as a .csv file and as a .wav file
